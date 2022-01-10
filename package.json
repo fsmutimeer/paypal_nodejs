@@ -1,31 +1,31 @@
 {
-  "name": "paypal_nodejs",
-  "version": "1.0.0",
-  "description": "nodejs paypal integration",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/fsmutimeer/paypal_nodejs.git"
-  },
-  "keywords": [
-    "nodejs",
-    "paypal",
-    "express"
-  ],
-  "author": "Feroz S. Mutimeer",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/fsmutimeer/paypal_nodejs/issues"
-  },
-  "homepage": "https://github.com/fsmutimeer/paypal_nodejs#readme",
-  "dependencies": {
-    "dotenv": "^10.0.0",
-    "express": "^4.17.2"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.15"
-  }
+    "name": "paypal_nodejs",
+    "version": "1.0.0",
+    "description": "nodejs paypal integration",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon index"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/fsmutimeer/paypal_nodejs.git"
+    },
+    "keywords": [
+        "nodejs",
+        "paypal",
+        "express"
+    ],
+    "author": "Feroz S. Mutimeer",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/fsmutimeer/paypal_nodejs/issues"
+    },
+    "homepage": "https://github.com/fsmutimeer/paypal_nodejs#readme",
+    "dependencies": {
+        "dotenv": "^10.0.0",
+        "express": "^4.17.2"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.15"
+    }
 }
