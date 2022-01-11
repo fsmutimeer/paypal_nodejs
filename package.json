@@ -23,7 +23,8 @@
     "homepage": "https://github.com/fsmutimeer/paypal_nodejs#readme",
     "dependencies": {
         "dotenv": "^10.0.0",
-        "express": "^4.17.2"
+        "express": "^4.17.2",
+        "paypal-rest-sdk": "^1.7.1"
     },
     "devDependencies": {
         "nodemon": "^2.0.15"
